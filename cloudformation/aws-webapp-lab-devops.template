@@ -5,7 +5,7 @@
 
   "Parameters" : {
     "KeyName" : {
-      "Description" : "Name of an existing EC2 KeyPair for SSH access to the instances.",
+      "Description" : "Name of an existing EC2 KeyPair for SSH access to the instances.", ,
       "Type" : "AWS::EC2::KeyPair::KeyName"
     },
 
