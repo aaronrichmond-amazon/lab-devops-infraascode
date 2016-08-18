@@ -47,6 +47,7 @@
   </nav>
   <% if (!((String) request.getAttribute("deploymentGroupName")).contains("Prod")) { %>
     <div class="alert alert-info" role="alert">
+      <p><strong>BETA deployment:</strong> ${applicationName}</p>
       <p><strong>AWS CodeDeploy Application:</strong> ${applicationName}</p>
       <p><strong>AWS CodeDeploy Deployment Group:</strong> ${deploymentGroupName}</p>
       <strong>Amazon EC2 Instances associated with this fleet:</strong>
